@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "129817469623",
+    "project_id": "kavya-kanaja-9a9b7",
+    "storage_bucket": "kavya-kanaja-9a9b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129817469623:android:c389e45b8d35e7d0da2332",
+        "android_client_info": {
+          "package_name": "com.zygisk.kavya_kanaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129817469623-on4l5aseo4qq9u8n2kvf0o90mgtuai2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zygisk.kavya_kanaja",
+            "certificate_hash": "f8a535863629c6b9507bfaa1618b27e13c2985e8"
+          }
+        },
+        {
+          "client_id": "129817469623-kpik5bblgsjrbie0o91kv2ul85e2b84t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleCdkJIMrmi2oQJkLYsTmeITtqzwzGVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129817469623-kpik5bblgsjrbie0o91kv2ul85e2b84t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
