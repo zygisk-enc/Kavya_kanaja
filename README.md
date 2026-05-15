@@ -1,41 +1,70 @@
-# Kavya Kanaja (ಕಾವ್ಯ ಕಣಜ)
+# KAVYA KANAJA
+## Enterprise-Grade Digital Archive for Kannada Literature
 
-A modern Android application dedicated to Kannada poetry, featuring audio recitations, poet biographies, and interactive learning.
+### Executive Summary
+Kavya Kanaja is a sophisticated mobile platform engineered for the preservation and dissemination of Kannada poetic heritage. The application leverages modern Android development paradigms to provide an immersive, high-fidelity experience for literary exploration. It is designed to bridge the gap between traditional literature and modern digital accessibility.
 
-## 🚀 Features
+### System Architecture
+The codebase adheres to Clean Architecture principles, ensuring a strict separation of concerns through the MVVM (Model-View-ViewModel) design pattern. This architecture facilitates scalability, rigorous testing, and long-term maintainability.
 
-- **Rich Poetry Collection**: Browse poems by category, author, or search.
-- **Audio Playback**: High-quality audio recitations with a persistent background player.
-- **Poet Biographies**: Learn about the lives and works of famous Kannada poets.
-- **Interactive Quiz**: Test your knowledge of Kannada literature.
-- **Personalized Library**: Create playlists, save favorites, and track your listening history.
-- **User Authentication**: Secure login and profile management via Firebase.
-- **Modern UI**: Built with Jetpack Compose and Material 3 design principles.
+#### Presentation Layer
+- UI Framework: Jetpack Compose (Declarative UI)
+- Design System: Material 3 (M3)
+- State Management: ViewModels with StateFlow/SharedFlow
+- Navigation: Type-safe Compose Navigation implementation
 
-## 🛠️ Tech Stack
+#### Domain Layer
+- Business Logic: Independent domain entities (Poem, PoetBio)
+- Use Cases: Dedicated logic for playback history and playlist management
 
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Database**: Room Persistence Library
-- **Backend**: Firebase Auth & Firestore
-- **Dependency Injection**: Manual Factory-based DI
-- **Background Tasks**: Android Foreground Services for Audio
+#### Data Layer
+- Local Persistence: Room Database with SQLite backing
+- Cloud Integration: Firebase Authentication and Real-time data sync
+- Media Engine: AndroidX Media3 (ExoPlayer) for optimized audio streaming
 
-## 📁 Project Structure
+### Technical Specifications
+| Category | Technology |
+| :--- | :--- |
+| Programming Language | Kotlin 2.1 |
+| UI Framework | Jetpack Compose |
+| Database | Room / SQLite |
+| Authentication | Firebase Auth |
+| Audio Engine | Media3 / ExoPlayer |
+| Build System | Gradle (Kotlin DSL) |
 
-- `app/src/main/java/.../data`: Data models, Room entities, and repositories.
-- `app/src/main/java/.../ui`: Compose screens, viewmodels, and theme components.
-- `app/src/main/java/.../service`: Background audio service logic.
-- `app/src/main/java/.../auth`: Firebase authentication management.
-- `scripts/`: Python utilities for bulk data management and asset processing.
+### Key Features
+#### Persistent Audio Recitations
+Implementation of a dedicated foreground service enables continuous audio playback. This architecture ensures the playback state remains consistent across the entire application lifecycle, including background transitions and device lock states.
 
-## 🏁 Getting Started
+#### Historical Context and Biographies
+A comprehensive, cross-referenced database of poet biographies provides users with critical historical and literary context for each archived work.
 
-1. Clone the repository.
-2. Open in Android Studio (Ladybug or newer).
-3. Add your `google-services.json` to the `app/` directory.
-4. Build and run on an emulator or physical device.
+#### Advanced Content Discovery
+A multi-dimensional filtering and search system allows users to categorize works by historical period, author, or genre with low latency.
+
+#### Personalization and Library Management
+Robust local management of user-defined playlists, favorited content, and chronological listening history, synchronized with the user's profile.
+
+### Installation and Deployment
+#### Development Requirements
+- Android SDK 34 (Upside Down Cake) or higher
+- Java Development Kit (JDK) 17
+- Android Studio Ladybug (2024.2.1) or newer
+
+#### Build Process
+1. Clone the repository: `git clone https://github.com/zygisk-enc/Kavya_kanaja.git`
+2. Insert `google-services.json` into the `/app` directory.
+3. Build the release bundle: `./gradlew assembleRelease`
+
+### Engineering Standards and Compliance
+This project maintains industry-standard code quality through:
+- Strict adherence to Google's Android and Kotlin coding conventions.
+- Static analysis and linting via ktlint.
+- Modularized project structure for decoupled development.
+- Comprehensive Git history following Conventional Commits.
+
+### License
+This software is licensed under the MIT License. Copyright (c) 2026 Zygisk.
 
 ---
-*Dedicated to the beauty of Kannada literature.*
+__Dedicated to the digital preservation of Kannada's poetic legacy.__
