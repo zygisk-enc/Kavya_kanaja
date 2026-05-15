@@ -4,6 +4,14 @@
 ### Executive Summary
 Kavya Kanaja is a sophisticated mobile platform engineered for the preservation and dissemination of Kannada poetic heritage. The application leverages modern Android development paradigms to provide an immersive, high-fidelity experience for literary exploration. It is designed to bridge the gap between traditional literature and modern digital accessibility.
 
+### Visual Interface
+The following screenshots provide an overview of the application's user interface, including the home dashboard, poem details, and the integrated audio player.
+
+| | | |
+| :---: | :---: | :---: |
+| ![Home](metadata/screenshots/Screenshot_20260515-112635_Kavya_kanaja.png) | ![Categories](metadata/screenshots/Screenshot_20260515-112639_Kavya_kanaja.png) | ![Detail](metadata/screenshots/Screenshot_20260515-112652_Kavya_kanaja.png) |
+| ![Player](metadata/screenshots/Screenshot_20260515-112655_Kavya_kanaja.png) | ![Explore](metadata/screenshots/Screenshot_20260515-112701_Kavya_kanaja.png) | ![Quiz](metadata/screenshots/Screenshot_20260515-112705_Kavya_kanaja.png) |
+
 ### System Architecture
 The codebase adheres to Clean Architecture principles, ensuring a strict separation of concerns through the MVVM (Model-View-ViewModel) design pattern. This architecture facilitates scalability, rigorous testing, and long-term maintainability.
 
