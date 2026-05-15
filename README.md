@@ -1,5 +1,5 @@
 # KAVYA KANAJA
-## Enterprise-Grade Digital Archive for Kannada Literature
+## Digital Archive for Kannada Literature
 
 ### Executive Summary
 Kavya Kanaja is a sophisticated mobile platform engineered for the preservation and dissemination of Kannada poetic heritage. The application leverages modern Android development paradigms to provide an immersive, high-fidelity experience for literary exploration. It is designed to bridge the gap between traditional literature and modern digital accessibility.
