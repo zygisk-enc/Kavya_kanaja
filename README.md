@@ -7,12 +7,11 @@ Kavya Kanaja is a sophisticated mobile platform engineered for the preservation 
 ### Visual Interface
 The following screenshots provide a comprehensive overview of the application's user interface, including the authentication flow, home dashboard, content exploration, interactive quiz, and media playback.
 
-| | | | |
-| :---: | :---: | :---: | :---: |
-| <img src="metadata/screenshots/Screenshot_20260515-112635_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112639_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112652_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112655_Kavya_kanaja.png" width="200"> |
-| <img src="metadata/screenshots/Screenshot_20260515-112701_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112705_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112721_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112724_Kavya_kanaja.png" width="200"> |
-| <img src="metadata/screenshots/Screenshot_20260515-112734_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112738_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112744_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112755_Kavya_kanaja.png" width="200"> |
-| <img src="metadata/screenshots/Screenshot_20260515-112803_Kavya_kanaja.png" width="200"> | <img src="metadata/screenshots/Screenshot_20260515-112816_Kavya_kanaja.png" width="200"> | | |
+| | | | | |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="metadata/screenshots/Screenshot_20260515-112635_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112639_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112655_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112701_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112705_Kavya_kanaja.png" width="160"> |
+| <img src="metadata/screenshots/Screenshot_20260515-112721_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112724_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112734_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112738_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112744_Kavya_kanaja.png" width="160"> |
+| <img src="metadata/screenshots/Screenshot_20260515-112755_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112803_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-112816_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-114306_Kavya_kanaja.png" width="160"> | <img src="metadata/screenshots/Screenshot_20260515-114321_Kavya_kanaja.png" width="160"> |
 
 ### System Architecture
 The codebase adheres to Clean Architecture principles, ensuring a strict separation of concerns through the MVVM (Model-View-ViewModel) design pattern. This architecture facilitates scalability, rigorous testing, and long-term maintainability.
